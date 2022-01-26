@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+
+const product = "E-Commerce"
+const welcome = "Bienvenidos"
+
+const styles = {
+  welcome: {
+    backgroundColor: 'yellow',
+    color: 'red',
+    border: '10px solid black',
+    width: 'auto',
+    height: 'auto',
+    margin: '5 5px',
+    padding: '5',
+  },
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="container">
+        <h1 className="title">Mi primer {product}</h1>
+        <h2 className="welcome" style={styles.welcome}>{welcome}, disfruten de nuestros servicios!</h2>
+      </section>
+      <section>
+    <p className="texto" style={styles.welcome}> 
+    Ponele que me toma el Lorem ipsum pero no! 
+    </p>
+      </section>
     </div>
   );
 }
