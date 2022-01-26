@@ -1,5 +1,5 @@
 import "./App.css";
-import NavBar from "./components/NavBar.js";
+import NavBar from "./components/NavBar";
 
 const product = "E-Commerce";
 const welcome = "Bienvenidos";
@@ -19,7 +19,7 @@ const styles = {
 /* COMPONENTE DE FUNCION / FUNCIONALES/ COOKS */
 /* EXISTEN COMPONENTES DE CLASE TAMBIEN */
 
-function App ()  {
+const App = () => {
   return (
     <>
       <NavBar/>

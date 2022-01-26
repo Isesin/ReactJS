@@ -2,15 +2,15 @@
 import "./NavBar.css"
 
 const NavBar = () => {
-    return 
+    return (
     <nav className= "Navigation">
         <ul className>
-            <li>Ejemplo</li>
-            <li>Ejemplo</li>
-            <li>Ejemplo</li>
+            <li>Inicio</li>
+            <li>Productos</li>
+            <li>Contacto</li>
         </ul>
     </nav>
-
-}
+    );
+};
 
 export default NavBar;

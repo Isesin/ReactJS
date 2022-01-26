@@ -1,15 +1,16 @@
 .Navigation {
+    width: 100%;
     display: flex;
     background-color: black;
     color: white;
-    justify-content: space-around;
     align-items: center;
     min-height: 50px;
 }
 ul {
+    color: red;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    width: auto;
 }
 
 ul li {
