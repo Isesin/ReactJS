@@ -18,11 +18,13 @@ const styles = {
 
 /* COMPONENTE DE FUNCION / FUNCIONALES/ COOKS */
 /* EXISTEN COMPONENTES DE CLASE TAMBIEN */
-
+const WhiteColor = "white";
+const RedColor = "red";
 const App = () => {
   return (
     <>
-      <NavBar/>
+      <NavBar color={WhiteColor}/>
+      <NavBar color={RedColor}/>
       <div className="App">
         <section className="container">
           <h1 className="title">Mi primer {product}</h1>
