@@ -7,7 +7,7 @@ const NavBar = (props) => {
     
     return (
         
-    <nav className= "Navigation" style={{border: `20px solid ${props.color}`}}> 
+    <nav className= "Navigation" style={{border: `20px solid ${props.mycolor}`}}> 
         <div>   
         <CardWidget style={{margin: `0px` , padding: `0px`}} /> 
         </div>
