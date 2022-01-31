@@ -59,8 +59,9 @@ class App1 extends React.Component {
       <>
         <div className="App">
           <Header
-          title='Bienvenidos a nuestro Ecommerce'/>
+          title="Bienvenido a nuestro ECommerce"/>
         </div>
+
         <div className="Cards">
           <CardComponent
           name="Jorge"
