@@ -3,6 +3,8 @@ import 'semantic-ui-css/semantic.min.css'
 import "./App.css";
 import Header from "./components/header/Header.js"
 import CardComponent from "./components/CardComponents/CardComponent"
+import ItemCount from "./components/ItemCount"
+
 
 
 
@@ -72,6 +74,9 @@ class App1 extends React.Component {
           <CardComponent
           name= "Roberto"
           description="Roberto es la Card 3"/>
+        </div>
+        <div className="Counter">
+          <ItemCount/>
         </div>
       </>
     );
