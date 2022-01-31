@@ -1,25 +1,15 @@
+import React from "react";
+import 'semantic-ui-css/semantic.min.css'
 import "./App.css";
-import NavBar from "./components/NavBar";
+import Header from "./components/header/Header.js"
+import CardComponent from "./components/CardComponents/CardComponent"
 
-const product = "E-Commerce";
-const welcome = "Bienvenidos";
 
-const styles = {
-  welcome: {
-    backgroundColor: "yellow",
-    color: "red",
-    border: "10px solid black",
-    width: "auto",
-    height: "auto",
-    margin: "5 5px",
-    padding: "5",
-  },
-};
+
 
 /* COMPONENTE DE FUNCION / FUNCIONALES/ COOKS */
 /* EXISTEN COMPONENTES DE CLASE TAMBIEN */
-const BlueColor = "blue";
-const RedColor = "red";
+/*
 const App = () => {
   return (
     <>
@@ -60,3 +50,31 @@ const myFunction = () => {
 Y LA LLAMO:
 myFunction()
 */
+
+/*COMPONENTES DE CLASE */
+/* Tienen estado (estate) y ciclos de vida. */
+class App1 extends React.Component {
+  render() {
+    return (
+      <>
+        <div className="App">
+          <Header
+          title='Bienvenidos a nuestro Ecommerce'/>
+        </div>
+        <div className="Cards">
+          <CardComponent
+          name="Jorge"
+          description="Jorge es la Card 1"/>
+          <CardComponent
+          name= "Raul"
+          description="Raul es la Card 2"/>
+          <CardComponent
+          name= "Roberto"
+          description="Roberto es la Card 3"/>
+        </div>
+      </>
+    );
+  }
+}
+
+export default App1;

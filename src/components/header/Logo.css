@@ -1,0 +1,7 @@
+.Logo {
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
